@@ -1,0 +1,19 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "To run examples run a local server at `index.html`. You can run `npm install` then in this directory run `npm start`. For best results run in Chrome or Firefox nightly.",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open",
+    "clean": "find . -name 'node_modules' -exec rm -rf '{}' +"
+  },
+  "author": "Cory Rylan",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.1.10",
+    "@web/dev-server-esbuild": "0.2.11",
+    "typescript": "3.4.3"
+  }
+}

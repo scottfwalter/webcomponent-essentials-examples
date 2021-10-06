@@ -1,0 +1,4 @@
+/* ::slotted has low specificity, a simple selector overrides at the root */
+/* p {
+  color: orange;
+} */

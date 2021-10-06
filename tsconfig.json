@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

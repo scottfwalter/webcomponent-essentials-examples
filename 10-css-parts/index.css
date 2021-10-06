@@ -1,0 +1,7 @@
+x-component::part(button-one) {
+  background: red;
+}
+
+x-component::part(button-two) {
+  background: blue;
+}
